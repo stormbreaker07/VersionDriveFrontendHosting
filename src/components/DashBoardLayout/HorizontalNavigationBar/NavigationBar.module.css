@@ -1,0 +1,101 @@
+.topBar {
+    overflow : hidden;
+    background-color: #8195c5;
+    position: fixed;
+    height: 7.3%;
+    width:100%;
+    z-index: 10;
+    /* filter: blur(1); */
+}
+
+.topBar:hover {
+    background-color: #8195c5;
+    /* transition-delay: 250ms;
+    -webkit-transition-delay: 250ms; */
+    transition: background-color 500ms linear;
+}
+
+.logo {
+    float : left;
+}
+
+/* 
+.leftShiftNavBar {
+    float: left;
+    color: #f2f2f2;
+    margin:0;
+  text-align: center;
+  padding: 27px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.leftShiftNavBar:hover {
+    background-color: rgb(141, 178, 236);
+  color: rgb(0, 0, 0);
+  font-style: italic;
+}
+ */
+
+.LeftIconButton {
+    float:left;
+      width: 2em !important;
+      color: #f2f2f2;
+      /* text-align: center !important; */
+      padding: 23px 16px;
+    text-decoration: none;
+    font-size: 2rem !important; 
+}
+
+.LeftIconButton:hover {
+  background-color: rgb(141, 178, 236);
+color: rgb(0, 0, 0);
+font-style: italic;
+}
+
+
+
+.RightIconButton {
+  float:right;
+    width: 2em !important;
+    color: #f2f2f2;
+    /* text-align: center !important; */
+    padding: 23px 16px;
+  text-decoration: none;
+  font-size: 2rem !important; 
+}
+
+.RightIconButton:hover {
+  background-color: rgb(141, 178, 236);
+color: rgb(0, 0, 0);
+font-style: italic;
+font-size: 2rem !important; 
+
+}
+
+.ProfileOuterBox {
+  float:right;
+  text-decoration: none;
+  height: 100px;
+}
+
+.ProfileOuterBox:hover {
+  background-color: rgb(141, 178, 236);
+}
+
+.RightProfileIconButton {
+  float:right;
+    color: #f2f2f2;
+    margin-top:32%;
+    text-align: center !important;
+  font-size: 2rem !important; 
+}
+
+.RightProfileIconButton:hover {
+  background-color: rgb(141, 178, 236);
+
+color: rgb(0, 0, 0);
+font-style: italic;
+font-size: 2rem !important; 
+
+}

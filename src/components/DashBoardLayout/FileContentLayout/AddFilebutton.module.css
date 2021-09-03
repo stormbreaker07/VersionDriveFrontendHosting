@@ -1,0 +1,19 @@
+.iconSize {
+    float:right;
+    color:beige;
+    /* border: solid rgb(112, 92, 92); */
+    /* border-radius: 110px; */
+    padding:0px;
+    margin-top: 1.7%;
+    margin-left:80%;
+    /* text-align: center !important; */ 
+  text-decoration: none;
+  font-size: 4rem !important;
+}
+
+.titlebox {
+    margin-top: 2%;
+    display: flex;
+    margin-left: 74%;
+
+}

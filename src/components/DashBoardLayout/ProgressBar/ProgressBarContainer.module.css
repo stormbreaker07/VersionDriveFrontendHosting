@@ -1,0 +1,15 @@
+.barContainer {
+    border-radius: 45px;
+    border:solid 3px rgb(116, 114, 114);
+    width:90%;
+    margin-top: 10px;
+    background-color: rgb(240, 233, 233);
+    margin-left: 10px;
+    margin-bottom:10px;
+    height: 5px;
+    box-shadow: inset rgb(12 12 8 / 66%) -9px -1px 20px 0px;
+}
+
+.barContainer:hover {
+
+}

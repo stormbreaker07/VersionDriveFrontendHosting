@@ -1,0 +1,62 @@
+.outerCounter {
+    margin-left: 38.3%;
+    margin-top: 10%;
+    align-content: center;
+    height : 42%;
+    width : 25%;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    z-index : 3;
+    border: solid 2px rgb(159, 177, 199);
+    border-radius : 20px;
+    text-align: center;
+    color:rgb(34, 37, 37);
+    overflow:hidden;
+}
+
+
+.form {
+    display : flex;
+    flex-direction: column;
+}
+
+
+.form label{
+    font-size: 1.5rem;
+    color: rgb(10, 10, 10);
+}
+
+.form input {
+    width: 60%;
+    border:solid 1px rgb(55, 34, 246); 
+    font-size: 1.3rem;
+    border-radius: 7px;
+}
+
+.form button {
+    width:90%;
+    margin-left : 5%;
+    margin-top : 4%;
+    font-size: 1.4rem;
+    border : solid 1px rgb(114, 107, 107); 
+    border-radius: 7px;
+    background-color: rgb(103, 180, 68);
+}
+
+.form button:hover {
+    background-image: linear-gradient(to right  , rgb(93, 194, 46) , rgb(31, 77, 31));
+    cursor:pointer ;
+}
+
+.insideDiv {
+    display : flex;
+    justify-content: space-between;
+    margin-top:4%;
+    margin-left : 40%;
+    margin-right: 15%;
+}
+
+.insideDiv h2 {
+    color: cornflowerblue;
+    cursor:pointer ;
+}
